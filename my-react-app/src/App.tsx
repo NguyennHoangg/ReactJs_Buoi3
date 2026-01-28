@@ -1,7 +1,7 @@
 
 import './App.css'
-import './component/Form'
-import Form from './component/Form'
+import '../Bai1_Buoi3/Form'
+import Form from '../Bai1_Buoi3/Form'
 
 function App() {
   return (
