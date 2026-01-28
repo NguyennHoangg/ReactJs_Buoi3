@@ -1,1 +1,1 @@
-![HinhAnhMinhChungBaiLam](my-react-app/HinhAnhMinhChungBaiLam/image.png)
+![HinhAnhMinhChungBaiLam](./HinhAnhMinhChungBaiLam/image.png)
