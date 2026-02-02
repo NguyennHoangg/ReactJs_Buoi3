@@ -1,11 +1,11 @@
 
 import './App.css'
-import '../Bai1_Buoi3/Form'
-import Form from '../Bai1_Buoi3/Form'
-import Oclock from '../Bai2_Buoi3/Oclock';
+import ProductFilter from '../Bai3_buoi3/ProductFilterWithOutUseeMemo'
+import ProductFilterWithUseMemo from '../Bai3_buoi3/ProductFilterWithUseMemo'
+
 function App() {
   return (
-    <Oclock />
+    <ProductFilterWithUseMemo />
   )
 }
 
