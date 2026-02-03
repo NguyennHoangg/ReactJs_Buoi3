@@ -43,6 +43,7 @@ export default function Form() {
                     Họ tên
                 </label>
                 <input
+                placeholder="name"
                     type="text"
                     name="name"
                     value={info.name}
@@ -62,6 +63,7 @@ export default function Form() {
                 </label>
                 <input
                     type="email"
+                    placeholder="email"
                     name="email"
                     value={info.email}
                     onChange={handleChange}
@@ -79,6 +81,7 @@ export default function Form() {
                     Age
                 </label>
                 <input
+                placeholder="age"
                     type="number"
                     name="age"
                     value={info.age}

@@ -47,3 +47,29 @@
 ![Bai3_Buoi3](./Bai3_buoi3/ProductFilterWithOutUseeMemo.png)
 
 ![Bai3_Buoi3](./Bai3_buoi3/ProductFilterWithUseMemo.png)
+
+---
+
+## Bài 4: Todo List với Performance Optimization
+**Mô tả:** Xây dựng ứng dụng quản lý công việc (Todo List) với các tính năng thêm, xóa, đánh dấu hoàn thành, và tối ưu hóa hiệu suất.
+
+**Kiến thức áp dụng:**
+- Sử dụng `useState` để quản lý danh sách todos và input
+- Sử dụng `useCallback` để tối ưu hóa các hàm xử lý (addTodo, toggleTodo, deleteTodo)
+- Sử dụng `useMemo` để tính toán danh sách đã lọc (completed/incomplete)
+- Xử lý sự kiện keyboard (Enter để thêm todo)
+- Conditional rendering để hiển thị trạng thái rỗng
+- Quản lý state phức tạp với array operations (map, filter)
+- Tối ưu performance với React hooks
+
+**Chức năng:**
+- ➕ Thêm công việc mới
+- ✓ Đánh dấu hoàn thành
+- ↶ Hoàn tác công việc đã hoàn thành
+- ✕ Xóa công việc
+- 📊 Thống kê tổng số công việc
+
+**File:** `Bai4_buoi3/TodoListPerformance.tsx`
+
+![Bai4_buoi3](./Bai4_buoi3/TodoListPerformance.png)
+
